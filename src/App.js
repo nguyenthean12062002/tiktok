@@ -9,7 +9,9 @@ function App() {
         <Routes>
           {publicRouter.map((route, index) => {
             const Page = route.component;
+            // mặc định Layout trang
             let Layout = DefaultLayout;
+            // logic xác định layout cho trang
             if (route.layout) {
               Layout = route.layout;
             } else if (route.layout === null) {
@@ -20,6 +22,7 @@ function App() {
                 key={index}
                 path={route.path}
                 element={
+                  // thay đổi lay out
                   <Layout>
                     <Page />
                   </Layout>
