@@ -1,9 +1,9 @@
-import Home from "~/pages/Home";
-import Flowing from "~/pages/Flowing";
-import Profile from "~/pages/Profile";
-import UpdateVideo from "~/pages/UpdateVideo";
-import Search from "~/pages/Search";
-import { HeaderOnly } from "~/Layout";
+import Home from "../pages/Home";
+import Flowing from "../pages/Flowing";
+import Profile from "../pages/Profile";
+import UpdateVideo from "../pages/UpdateVideo";
+import Search from "../pages/Search";
+import { HeaderOnly } from "~/component/Layout";
 export const publicRouter = [
   {
     path: "/",

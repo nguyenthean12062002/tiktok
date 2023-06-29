@@ -1,5 +1,5 @@
 function Home() {
-  return <h2>Home đây</h2>;
+  return <h2>Content home đây</h2>;
 }
 
 export default Home;
